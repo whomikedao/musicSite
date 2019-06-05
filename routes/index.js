@@ -4,14 +4,17 @@ var data = require('../data/data.json');
 
 router.get('/', (req, res)=>{
     let albumList = []
-    let description = data.TenD;
+    let tenaciousD = data.TenD;
 
-    description.forEach((albumObj)=>{
+    tenaciousD.forEach((albumObj)=>{
         albumList = albumList.concat(albumObj.album);
     })
 
-    console.log(albumList);
-    res.send('TenD')
+    // console.log(albumList);
+    // res.send('TenD')
+    res.render('index', {
+        album: tenaciousD
+    })
 })
 
 module.exports = router;
