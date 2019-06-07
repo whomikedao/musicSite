@@ -1,5 +1,6 @@
 .font {
     font-family: 'Cinzel Decorative';
+    font-color:
 }
 
 #best-title {
@@ -16,7 +17,7 @@ body, html {
   
 .bg { 
     /* The image used */
-    background-image: url("../images/tenacious-d-534773d5731e2.jpg");
+    background-image: url("../images/background/tend4.jpg");
   
     /* Full height */
     height: 100%; 
